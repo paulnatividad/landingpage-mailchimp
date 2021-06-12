@@ -1,0 +1,265 @@
+/****************** HTML SELECTOR ******************/
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  margin: 1rem auto 1.5rem auto;
+  width: 70vw;
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+form {
+  background-color: #0055b3;
+  border-radius: 0.75rem;
+  width: fit-content;
+  padding: 2rem;
+  padding-bottom: 0;
+  margin: auto;
+}
+/****************** CLASS SELECTOR ******************/
+.top-box,
+.before-section,
+.vid-section {
+  background-color: #e6e6e6;
+}
+
+.top-box {
+  padding: 3rem;
+}
+
+.icon,
+.company-icon {
+  height: 4.5rem;
+  width: 12rem;
+  margin: 1rem auto 5rem auto;
+  border-radius: 0.2rem;
+}
+
+.icon,
+.company-icon,
+.circle-img {
+  background-color: #b3b3b3;
+}
+
+.head-paragraph {
+  font-size: 1.5rem;
+  margin: 2rem auto 3rem auto;
+}
+
+.submit-btn,
+.email-input {
+  padding: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 3rem;
+  border-radius: 0.6rem;
+}
+
+.submit-btn {
+  background-color: #cc33ff;
+  color: white;
+  border: none;
+  display: inline-block;
+  justify-content: center;
+  width: 8rem;
+  height: 3rem;
+  font-size: large;
+  cursor: pointer;
+}
+
+.top-box button {
+  margin-top: 1rem;
+  background-color: #2a9df4;
+  box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.top-box button:hover {
+  background-color: #59bfff;
+}
+
+.input-box {
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.5rem;
+  display: flex;
+  height: 2rem;
+  margin: 0.25rem auto 0.25rem auto;
+  width: 16rem;
+}
+
+.section-title {
+  margin: 3rem auto;
+  font-size: 2rem;
+}
+
+.company-icon {
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+
+/************* BEFORE SECTION **************/
+.before-section button {
+  margin-top: 5rem;
+}
+
+.title-head {
+  font-size: 2.8rem;
+  padding-top: 3rem;
+}
+
+.title-head,
+.section-title,
+h4 {
+  color: #595959;
+}
+
+.circle-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: auto auto 1.5rem auto;
+}
+
+.before-container {
+  display: flex;
+  justify-content: center;
+}
+
+.before-headline {
+  flex-basis: 15%;
+  margin: 1rem;
+}
+
+/************** Intro Section **************/
+.introduction-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.product-img {
+  width: 30rem;
+  height: 28rem;
+  background-color: #b3b3b3;
+}
+
+.product-description {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  text-align: left;
+}
+
+.product-description p {
+  display: inline;
+  line-height: 3;
+}
+
+/************** Video Section **************/
+
+.video-container {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.video-text {
+  text-align: left;
+}
+
+.product-video {
+  width: 30rem;
+  height: 20rem;
+  background-color: grey;
+}
+
+.vid-title {
+  margin-bottom: auto;
+  margin-right: 2rem;
+}
+
+.video-text p {
+  font-size: 0.8rem;
+}
+
+.btn-margin {
+  margin-top: 3rem;
+}
+
+/************** Customer Review Section **************/
+.review-section {
+  background-color: #cccccc;
+}
+
+.review-container {
+  display: flex;
+  padding: 2rem;
+  border-radius: 10%;
+  justify-content: center;
+}
+
+.cust-image-circle {
+  background-color: gray;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+.customer-container {
+  background-color: #fff;
+  flex-basis: 15%;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+/*********** Final Call to Action **************/
+.final-section h2 {
+  margin-bottom: 4rem;
+}
+/*************** Footer  *****************/
+.footer-section {
+  background-color: #595959;
+  color: #fff;
+  padding: 1.5rem;
+}
+/************ TO Be Responsive ****************/
+
+@media (max-width: 800px) {
+  .before-container,
+  .video-container,
+  .introduction-container,
+  .review-container {
+    flex-direction: column;
+  }
+
+  .top-box {
+    text-align: left;
+  }
+  h1 {
+    margin: 0;
+  }
+
+  .product-description {
+    margin: 0;
+  }
+}

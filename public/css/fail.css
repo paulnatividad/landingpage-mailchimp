@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  line-height: 1;
+}
+
+h1 {
+  margin: 1rem auto 0 auto;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.background-image {
+  margin: 10rem auto 0 auto;
+  height: 15rem;
+}
+
+.btn {
+  padding: 15px;
+  background-color: gold;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-style: none;
+}
+
+/* @media screen and (max-width: 500px) {
+  body {
+    text-align: left;
+    background-color: aqua;
+  }
+
+  .background-image {
+    display: absolute;
+    z-index: -1;
+    left: 2rem;
+  }
+} */
